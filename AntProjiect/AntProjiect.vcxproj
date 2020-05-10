@@ -139,12 +139,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Ant.cpp" />
+    <ClCompile Include="BaseAnt.cpp" />
     <ClCompile Include="DoodleBug.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ant.h" />
-    <ClInclude Include="doodlebug.h" />
+    <ClInclude Include="Ant.h" />
+    <ClInclude Include="BaseAnt.h" />
+    <ClInclude Include="DoodleBug.h" />
     <ClInclude Include="UI.h" />
     <ClInclude Include="Utls.h" />
   </ItemGroup>
