@@ -1,0 +1,4 @@
+﻿  main.cpp
+C:\Users\CharlesKinx\source\repos\AntProjiect\AntProjiect\UI.h(27,7): warning C4101: “str5”: 未引用的局部变量
+C:\Users\CharlesKinx\source\repos\AntProjiect\AntProjiect\Utls.h(41,20): warning C4018: “<”: 有符号/无符号不匹配
+  AntProjiect.vcxproj -> C:\Users\CharlesKinx\source\repos\AntProjiect\Debug\AntProjiect.exe
