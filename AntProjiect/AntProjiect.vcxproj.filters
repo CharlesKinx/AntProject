@@ -24,7 +24,10 @@
     <ClCompile Include="DoodleBug.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="BaseAnt.cpp">
+    <ClCompile Include="Organism.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MapLocation.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
@@ -35,13 +38,16 @@
     <ClInclude Include="UI.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="BaseAnt.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="Ant.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="DoodleBug.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Organism.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MapLoction.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

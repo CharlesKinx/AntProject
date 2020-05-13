@@ -1,8 +1,9 @@
 #pragma once
-#include"BaseAnt.h"
+#include"Organism.h"
 #ifndef _DOODLEBUG_H_
 
-class DoodleBug:public BaseAnt {
+class DoodleBug:public Organism {
+
 public:
 	void antStarve();
 

@@ -1,20 +1,23 @@
-#include"BaseAnt.h"
+#include"Ant.h"
+#include<vector>
+using namespace std;
+Ant::Ant() {
 
-class Ant: public BaseAnt{
-public:
-	int x;
-	int y;
-	int timeStep;
+}
 
-	Ant() {
-
+void Ant::antBreed(vector<Ant *> ant) {
+	for (int i = 0; i < ant.size(); i++) {
+		if (ant[i]->timeStep == 3) {
+			Ant *ant_ = new Ant();
+			ant[i]->timeStep = 0;
+			ant.push_back(ant_);
+		}
 	}
 
-	void ChangeLocation() {
+}
+void Ant::antDead() {
 
-	}
+}
+void Ant::antMove() {
 
-	bool isDead() {
-
-	}
-};
+}

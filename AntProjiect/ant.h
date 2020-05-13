@@ -1,11 +1,18 @@
 #pragma once
 #ifndef _ANT_H_
-#include"BaseAnt.h"
-
-class Ant : public BaseAnt {
+#include"Organism.h"
+#include<vector>
+using namespace std;
+class Ant : public Organism {
 public:
 
+	int x;
+	int y;
+	int timeStep;
+
 	Ant();
-	bool isDead();
+	void antMove();
+	void antDead();
+	void antBreed(vector<Ant*> ant);
 };
 #endif // !_ANT_H_
